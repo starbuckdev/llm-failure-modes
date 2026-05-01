@@ -8,9 +8,9 @@ A collection of test probes on LLMs. Each test documents the model, prompt, tran
 
 ## Test Catalog
 
-- `deepseek-r1-qwen-8b-pacman-failure.md` — Asked for a numeric answer. Never got one.
+- `deepseek-r1-qwen-8b-pacman-failure.md` — Probe question requiring domain knowledge. Model failed to retrieve specific facts and could not produce a numeric answer.
 - `deepseek-r1-qwen-8b-integer-meltdown.md` — Asked for any integer. Got Chinese text, Python imports, and a hallucinated LeetCode problem.
-- More tests will be added as I run them.
+
 
 ## Format
 
