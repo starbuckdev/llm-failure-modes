@@ -10,7 +10,7 @@ A collection of test probes on LLMs. Each test documents the model, prompt, tran
 
 - `deepseek-r1-qwen-8b-pacman-failure.md` — Probe question requiring domain knowledge. Model failed to retrieve specific facts and could not produce a numeric answer.
 - `deepseek-r1-qwen-8b-integer-meltdown.md` — Asked for any integer. Got Chinese text, Python imports, and a hallucinated LeetCode problem.
-
+- `deepseek-app-context-drift-self-harm-refusals.md` — Eight prompts from dangerous jobs to stated lethal intent. No refusal fired; cold controls refused correctly.
 
 ## Format
 
